@@ -16,10 +16,37 @@ body {
     background-repeat: no-repeat;
 	font-family: "Bai Jamjuree", sans-serif;
     font-size: 18px;
+    text-align: center;
 }
 
-img {
-    width: 70%;
+#top-clipboard-logo {
+    width: 120px;
+}
+
+#apple-desktop {
+    width: 300px;
+}
+
+#mobile-devices {
+    width: 340px;
+}
+
+#bottom-clipboard-logo {
+    width: 50px;
+}
+
+#bottom-logos {
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+}
+
+.company-logo {
+    margin: 35px 0px 35px 0px;
+}
+
+#social-icons:hover {
+    cursor: pointer;
 }
 
 .attribution {
