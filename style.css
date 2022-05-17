@@ -18,6 +18,10 @@ body {
     font-size: 18px;
 }
 
+img {
+    width: 70%;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
