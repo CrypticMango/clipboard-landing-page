@@ -20,12 +20,45 @@ body {
 	text-align: center;
 }
 
+button {
+    font-family: "Bai Jamjuree", sans-serif;
+    width: 300px;
+    height: 60px;
+    margin-top: 25px;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+}
+
+.ios-button {
+    background-color: var(--strong-cyan);
+}
+
+.mac-button {
+    background-color: var(--light-blue);
+}
+
 h1, h2 {
     color: var(--dark-grayish-blue);
 }
 
 p {
     color: var(--grayish-blue);
+    padding: 0px 25px 0px 25px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+li a {
+    text-decoration: none;
+    color: var(--dark-grayish-blue);
 }
 
 #top-clipboard-logo {
@@ -42,6 +75,7 @@ p {
 
 #bottom-clipboard-logo {
 	width: 50px;
+    margin: 150px 0px 10px 0px;
 }
 
 #bottom-logos {
@@ -52,6 +86,16 @@ p {
 
 .company-logo {
 	margin: 35px 0px 35px 0px;
+}
+
+.fa-brands {
+    color: var(--dark-grayish-blue);
+    margin: 30px 40px 0px 0px;
+    font-size: 25px;
+}
+
+.fa-instagram {
+    margin-right: 0px;
 }
 
 #social-icons:hover {
