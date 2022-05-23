@@ -24,7 +24,7 @@ button {
     font-family: "Bai Jamjuree", sans-serif;
     width: 300px;
     height: 60px;
-    margin-top: 25px;
+    margin-top: 30px;
     border-radius: 50px;
     color: white;
     font-size: 18px;
@@ -32,10 +32,20 @@ button {
 
 .ios-button {
     background-color: var(--strong-cyan);
+	border: 1px solid var(--strong-cyan);
+	box-shadow: 0px 4px hsl(171, 66%, 38%);
+	margin-top: 50px;
 }
 
 .mac-button {
     background-color: var(--light-blue);
+	border: 1px solid var(--light-blue);
+	box-shadow: 0px 4px hsl(233, 65%, 59%);
+}
+
+h1 {
+	margin-top: 80px;
+	font-size: 33px;
 }
 
 h1, h2 {
@@ -44,7 +54,9 @@ h1, h2 {
 
 p {
     color: var(--grayish-blue);
-    padding: 0px 25px 0px 25px;
+    padding: 0px 0px 0px 0px;
+	margin: 0;
+	line-height: 1.7rem;
 }
 
 ul {
@@ -62,7 +74,7 @@ li a {
 }
 
 #top-clipboard-logo {
-	width: 120px;
+	width: 135px;
 }
 
 #apple-desktop {
