@@ -30,6 +30,10 @@ button {
     font-size: 18px;
 }
 
+button:hover {
+	cursor: pointer;
+}
+
 .ios-button {
     background-color: var(--strong-cyan);
 	border: 1px solid var(--strong-cyan);
@@ -112,8 +116,8 @@ li a {
 /* bottom section*/
 
 #bottom-section {
-	width: 375px;
-	background-color: hsla(202, 11%, 66%, 0.315);
+	width: 500px;
+	background-color: hsla(202, 11%, 66%, 0.096);
 }
 
 #bottom-clipboard-logo {
@@ -144,8 +148,8 @@ li a {
 }
 
 footer {
-	background-color: hsla(202, 11%, 66%, 0.315);
-	width: 375px;
+	background-color: hsla(202, 11%, 66%, 0.096);
+	width: 500px;
 }
 
 .attribution {
@@ -153,5 +157,5 @@ footer {
 	text-align: center;
 }
 .attribution a {
-	color: hsl(228, 45%, 44%);
+	color: var(--strong-cyan)
 }
