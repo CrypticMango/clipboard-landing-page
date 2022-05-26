@@ -36,116 +36,119 @@
 		<title>Frontend Mentor | Clipboard landing page</title>
 	</head>
 	<body>
-		<img
-			id="top-clipboard-logo"
-			src="/images/logo.svg"
-			alt="c-logo"
-			aria-label="clipboard-logo"
-		/>
+		<div id="top-section">
+			<img
+				id="top-clipboard-logo"
+				src="/images/logo.svg"
+				alt="c-logo"
+				aria-label="clipboard-logo"
+			/>
+			<h1>A history of everything you copy</h1>
+			<p>
+				Clipboard allows you to track and organize everything you
+				copy. Instantly access your clipboard on all your devices.
+			</p>
+			<button class="ios-button">Download for iOS</button>
+			<button class="mac-button">Download for Mac</button>
+		</div>
 
-		<h1>A history of everything you copy</h1>
+	
+			<h2>Keep track of your snippets</h2>
+	
+			<p>
+				Clipboard instantly stores any item you copy in the cloud,
+				meaning you can access your snippets immediately on all your
+				devices. Our Mac and iOS apps will help you organize
+				everything.
+			</p>
+			<div id="second-section">
+			<div id="pc-picture">
+				<img
+					id="apple-desktop"
+					src="/images/image-computer.png"
+					alt="mac-pc"
+					aria-label="computer"
+				/>
+			</div>
+	
+			<div id="second-section-info">
+				<h2>Quick Search</h2>
+				<p>
+					Easily search your snippets by content, category, web address,
+					application, and more.
+				</p>
+				<h2>iCloud Sync</h2>
+				<p>Instantly saves and syncs snippets across all your devices.</p>
+				<h2>Complete History</h2>
+				<p>
+					Retrieve any snippets from the first moment you started using
+					the app.
+				</p>
+			</div>
+</div>
 
-		<p>
-			Clipboard allows you to track and organize everything you
-			copy. Instantly access your clipboard on all your devices.
-		</p>
-
-		<button class="ios-button">Download for iOS</button>
-		<button class="mac-button">Download for Mac</button>
-
-		<h2>Keep track of your snippets</h2>
-
-		<p>
-			Clipboard instantly stores any item you copy in the cloud,
-			meaning you can access your snippets immediately on all your
-			devices. Our Mac and iOS apps will help you organize
-			everything.
-		</p>
-
-		<img
-			id="apple-desktop"
-			src="/images/image-computer.png"
-			alt="mac-pc"
-			aria-label="computer"
-		/>
-
-		<h2>Quick Search</h2>
-
-		<p>
-			Easily search your snippets by content, category, web address,
-			application, and more.
-		</p>
-
-		<h2>iCloud Sync</h2>
-
-		<p>Instantly saves and syncs snippets across all your devices.</p>
-
-		<h2>Complete History</h2>
-
-		<p>
-			Retrieve any snippets from the first moment you started using
-			the app.
-		</p>
-
-		<h2 id="access-clipboard-title">Access Clipboard anywhere</h2>
-
-		<p>
-			Whether you’re on the go, or at your computer, you can access
-			all your Clipboard snippets in a few simple clicks.
-		</p>
-
-		<img
-			id="mobile-devices"
-			src="/images/image-devices.png"
-			alt="mobile-tablet"
-			aria-label="tablet-and-smartphone"
-		/>
+		<div id="third-section">
+			<h2 id="access-clipboard-title">Access Clipboard anywhere</h2>
+			<p>
+				Whether you’re on the go, or at your computer, you can access
+				all your Clipboard snippets in a few simple clicks.
+			</p>
+			<img
+				id="mobile-devices"
+				src="/images/image-devices.png"
+				alt="mobile-tablet"
+				aria-label="tablet-and-smartphone"
+			/>
+		</div>
 
 		<h2>Supercharge your workflow</h2>
 
 		<p>We’ve got the tools to boost your productivity.</p>
 
-		<img
-			class="feature-icons"
-			src="/images/icon-blacklist.svg"
-			alt="document"
-			aria-label="list"
-		/>
+		<div id="fourth-section">
 
-		<h2>Create blacklists</h2>
+			<div id="blacklist-info">
+				<img
+					class="feature-icons"
+					src="/images/icon-blacklist.svg"
+					alt="document"
+					aria-label="list"
+				/>
+				<h2>Create blacklists</h2>
+				<p class="fourth-section-info">
+					Ensure sensitive information never makes its way to your
+					clipboard by excluding certain sources.
+				</p>
+			</div>
 
-		<p>
-			Ensure sensitive information never makes its way to your
-			clipboard by excluding certain sources.
-		</p>
+			<div id="text-snippet-info">
+				<img
+					class="feature-icons"
+					src="/images/icon-text.svg"
+					alt="letter-a"
+					aria-label="letter-and-cursor"
+				/>
+				<h2>Plain text snippets</h2>
+				<p class="fourth-section-info">
+					Remove unwanted formatting from copied text for a consistent
+					look.
+				</p>
+			</div>
 
-		<img
-			class="feature-icons"
-			src="/images/icon-text.svg"
-			alt="letter-a"
-			aria-label="letter-and-cursor"
-		/>
-
-		<h2>Plain text snippets</h2>
-
-		<p>
-			Remove unwanted formatting from copied text for a consistent
-			look.
-		</p>
-
-		<img
-			class="feature-icons"
-			src="/images/icon-preview.svg"
-			alt="eye"
-			aria-label="bright-eye"
-		/>
-
-		<h2>Sneak preview</h2>
-
-		<p>
-			Quick preview of all snippets on your Clipboard for easy
-			access.
-		</p>
+			<div id="preview-info">
+				<img
+					class="feature-icons"
+					src="/images/icon-preview.svg"
+					alt="eye"
+					aria-label="bright-eye"
+				/>
+				<h2>Sneak preview</h2>
+				<p class="fourth-section-info">
+					Quick preview of all snippets on your Clipboard for easy
+					access.
+				</p>
+			</div>
+		</div>
 
 		<div id="bottom-logos">
 			<img
@@ -201,14 +204,19 @@
 		<button class="mac-button">Download for Mac</button>
 
 		<div id="bottom-section">
-			<img id="bottom-clipboard-logo" src="/images/logo.svg" alt="" />
-			<ul>
-				<li><a href="#">FAQs</a></li>
-				<li><a href="#">Contact Us</a></li>
-				<li><a href="#">Privacy Policy</a></li>
-				<li><a href="#">Press Kit</a></li>
-				<li><a href="#">Install Guide</a></li>
-			</ul>
+			
+			<div id="footer-logo"><img id="bottom-clipboard-logo" src="/images/logo.svg" alt="" /></div>
+
+			<div id="info-links">
+				<ul>
+					<li><a href="#">FAQs</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Press Kit</a></li>
+					<li><a href="#">Install Guide</a></li>
+				</ul>
+			</div>
+
 			<div id="social-icons">
 				<a href="http://"
 					><i class="fa-brands fa-facebook-square"></i

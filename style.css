@@ -159,3 +159,43 @@ footer {
 .attribution a {
 	color: var(--strong-cyan)
 }
+
+@media (min-width: 1440px) {
+body {
+	background-image: url(/images/bg-header-desktop.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+	p {
+	padding: 0px 370px 0px 370px;
+}
+
+button {
+	width: 245px;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.ios-button {
+	margin-right: 20px;
+}
+
+#second-section, #fourth-section, #bottom-logos, #bottom-section {
+	display: flex;
+	flex-direction: row;
+}
+.fourth-section-info {
+	padding: 0px;
+}
+
+#bottom-logos {
+	margin: 0 auto;
+}
+
+.attribution {
+	padding: 0px;
+}
+
+
+}
