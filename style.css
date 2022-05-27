@@ -185,17 +185,43 @@ button {
 	display: flex;
 	flex-direction: row;
 }
+
+/*top section styling*/
+
+/*second section styling*/
+
+.second-section-title {
+	text-align: left;
+	margin-bottom: 0px;
+	margin-left: 100px;
+}
+
+.section-blurb {
+	padding: 0px;
+	text-align: left;
+	margin-left: 100px;
+}
+
+/* third section styling*/
+
+/* fourth section styling*/
+
 .fourth-section-info {
 	padding: 0px;
 }
 
+/*bottom section*/
+
 #bottom-logos {
-	margin: 0 auto;
+	justify-content: center;
+}
+
+#google, #ibm, #microsoft, #hp {
+	margin-right: 100px;
 }
 
 .attribution {
 	padding: 0px;
 }
-
 
 }
