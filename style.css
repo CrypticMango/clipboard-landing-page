@@ -61,7 +61,7 @@ h1 {
 	font-size: 33px;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: var(--dark-grayish-blue);
 }
 
@@ -222,9 +222,11 @@ footer {
 }
 
 .section-blurb {
-	padding: 0px 200px 0px 0px;
+	padding: 0px 250px 0px 0px;
 	text-align: left;
 	margin-left: 70px;
+	margin-top: 10px;
+	font-size: 16px;
 }
 
 /* third section styling*/
@@ -241,6 +243,11 @@ footer {
 
 #blacklist-info, #text-snippet-info, #preview-info {
 	width: 380px;
+}
+
+#blacklist-info {
+	position: relative;
+	top: -8px;
 }
 
 .fourth-section-info {
